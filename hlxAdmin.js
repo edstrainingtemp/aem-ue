@@ -50,7 +50,6 @@ const operations = {
     console.log(`🔄 Starting ${operation} for path: ${path}`);
     // eslint-disable-next-line no-console
     console.log(`📍 URL: ${url}`);
-    console.log('Auth token:', process.env.AEM_AUTH_TOKEN);
 
     const response = await axios({
       method: config.method,
